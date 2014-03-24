@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootCollectionViewController.h
 //  Achieve
 //
 //  Created by LingXi on 14-1-17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootCollectionViewController : UICollectionViewController<UICollectionViewDataSource>
 
 @end
